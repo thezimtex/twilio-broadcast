@@ -3,8 +3,8 @@ require 'json'
 require 'open-uri'
 require 'twilio-ruby'
 
-MY_NUMBER = ENV['MY_NUMBER']
-SPREADSHEET_ID = ENV['SPREADSHEET_ID']
+MY_NUMBER = ENV[+12145382765]
+SPREADSHEET_ID = ENV[102pF065OJfVvKhAoon7YNXqd2i8UBhvC7z7zOTex6VU]
 
 def spreadsheet_url
   "https://spreadsheets.google.com/feeds/list/#{SPREADSHEET_ID}/od6/public/values?alt=json"
